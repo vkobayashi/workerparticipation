@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Worker Participation Guide", layout="wide")
 
-st.title("Guidebook for Worker Participation")
+st.title("Step-by-step guide for Worker Participation")
 
 steps = [
     ("Step 1: Identify the Model for Worker Involvement", """
