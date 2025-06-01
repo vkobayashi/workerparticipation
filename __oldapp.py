@@ -29,24 +29,6 @@ Can be combined depending on depth and complexity.
 Choice depends on scale, feasibility, and structures.
 """),
     ("Step 4: Choose the Specific Method for Worker Participation", """
-### Co-Design
-![Co-Design](assets/Codesign.png)
-
-### Value Co-Creation
-![Value Co-Creation](assets/Value_Co_Creation.png)
-
-### Resonant Co-Creation
-![Resonant Co-Creation](assets/Resonant_Co_Creation.png)
-
-### Lead User Innovation
-![Lead User Innovation](assets/Lead_User_Innovation.png)
-
-### Living Labs
-![Living Lab](assets/Living_Lab.png)
-
-### Explainable AI (XAI)
-![Explainable AI](assets/Explainable_AI.png)
-
 Options include:
 1) Co-design
 2) Value co-creation
@@ -97,4 +79,4 @@ Enhances legitimacy and effectiveness.
 
 for title, content in steps:
     with st.expander(title):
-        st.markdown(content)
+        st.write(content)
