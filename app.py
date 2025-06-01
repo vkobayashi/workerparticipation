@@ -97,6 +97,36 @@ with st.expander("Descriptive summary of each method in Step 4"):
     st.markdown("### Living Labs")
     st.image("assets/Living_Lab.png", caption="Living Lab", width=378)
 
+with st.expander("Use Case: Designing a Scheduling System"):
+    st.markdown("### Step 1: Identify the Model for Worker Involvement")
+    st.write("Recocomended model: Workers participating in the design process or workers as designers (for high trust and autonomy 
+    environments")
+
+    st.markdown("### Step 2: Determine the Approach for Collecting Data and Insights")
+    st.write("Combine empirical (interviews), scenario-based (mock-ups), and experimental (pilot testing) methods.")
+
+    st.markdown("### Step 3: Decide on the Mode of Worker Participation")
+    st.write("Prefer direct participation via workshops or co-design sessions; use indirect participation where needed.")
+
+    st.markdown("### Step 4: Choose the Specific Method for Worker Participation")
+    st.write("Apply co-design, value co-creation, and lead user innovation approaches.")
+
+    st.markdown("### Step 5: Consider Contextual Factors")
+    st.write("Respect labor laws, union rules, organizational culture, and technology constraints.")
+
+    st.markdown("### Step 6: Employee Education and Training")
+    st.write("Train workers in scheduling principles and design thinking.")
+
+    st.markdown("### Step 7: Mentoring and Peer Learning")
+    st.write("Encourage mentoring and peer review of early prototypes.")
+
+    st.markdown("### Step 8: Feedback and Communication Channels")
+    st.write("Use digital forms, feedback loops, and discussion sessions.")
+
+    st.markdown("### Step 9: Codetermination and Work Councils")
+    st.write("Integrate worker-designed components with formal participation bodies.")
+
+
     st.markdown("### Explainable AI (XAI)")
     st.image("assets/Explainable_AI.png", caption="Explainable AI", width=378)
 
