@@ -30,8 +30,8 @@ Choice depends on scale, feasibility, and structures.
 """),
     ("Step 4: Choose the Specific Method for Worker Participation", """
 ### Co-Design
-![Co-Design](./assets/Codesign.png)
-st.image("assets/Codesign.png", caption="Co-Design")
+![Co-Design](assets/Codesign.png)
+
 
 ### Value Co-Creation
 ![Value Co-Creation](assets/Value_Co_Creation.png)
@@ -44,6 +44,8 @@ st.image("assets/Codesign.png", caption="Co-Design")
 
 ### Living Labs
 ![Living Lab](assets/Living_Lab.png)
+st.markdown("### Living Labs")
+st.image("assets/Living_Lab.png", caption="Living Lab", use_column_width=True)
 
 ### Explainable AI (XAI)
 ![Explainable AI](assets/Explainable_AI.png)
