@@ -28,7 +28,7 @@ Can be combined depending on depth and complexity.
 
 Choice depends on scale, feasibility, and structures.
 """),
-    ("Step 4: Choose the Specific Method for Worker Participation", None)
+    ("Step 4: Choose the Specific Method for Worker Participation", None),
     ("Step 5: Consider Contextual Factors", """
 Consider:
 - National labor laws
