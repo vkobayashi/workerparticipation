@@ -102,11 +102,11 @@ with st.expander("Descriptive summary of each method in Step 4"):
 
 with st.expander("Use Case: Designing a Scheduling System"):
     st.markdown("### Step 1: Identify the Model for Worker Involvement")
-    st.write("Recommended model: 
+    st.write("""Recommended model: 
     
     -Workers participating in the design process or 
     
-    -Workers as designers (for high trust and autonomy environments)")
+    -Workers as designers (for high trust and autonomy environments)""")
     st.write("Why? These models ensure direct insight into daily scheduling realities, constraints, and preferences.")
     
     st.markdown("### Step 2: Determine the Approach for Collecting Data and Insights")
