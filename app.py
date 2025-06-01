@@ -99,7 +99,7 @@ with st.expander("Descriptive summary of each method in Step 4"):
 
 with st.expander("Use Case: Designing a Scheduling System"):
     st.markdown("### Step 1: Identify the Model for Worker Involvement")
-    st.write("Recommended model: Workers participating in the design process or workers as designers (for high trust and autonomy environments)"
+    st.write("Recommended model: Workers participating in the design process or workers as designers (for high trust and autonomy environments)")
     st.write("Why? These models ensure direct insight into daily scheduling realities, constraints, and preferences.")
     
     st.markdown("### Step 2: Determine the Approach for Collecting Data and Insights")
@@ -112,10 +112,22 @@ Optional Experimental: Test prototype schedules in pilot teamsCombine empirical 
     
 
     st.markdown("### Step 3: Decide on the Mode of Worker Participation")
-    st.write("Prefer direct participation via workshops or co-design sessions; use indirect participation where needed.")
+    st.write("""Direct participation is best for practical scheduling:
+
+Invite workers to co-design workshops
+
+Involve a representative cross-section (roles, shifts, seniority)
+
+If scale is large, combine with indirect participation via reps or a scheduling advisory group.""")
 
     st.markdown("### Step 4: Choose the Specific Method for Worker Participation")
-    st.write("Apply co-design, value co-creation, and lead user innovation approaches.")
+    st.write("""Best methods:
+
+Co-design: Host collaborative sessions to design interfaces and logic
+
+Value co-creation: Align scheduling features with both worker well-being and operational needs
+
+Lead user innovation: Involve workers who’ve already devised personal or informal solutions""")
 
     st.markdown("### Step 5: Consider Contextual Factors")
     st.write("Respect labor laws, union rules, organizational culture, and technology constraints.")
