@@ -111,7 +111,7 @@ Empirical: Interview workers, observe shift patterns, gather historical issues
 
 Scenario-based: Present mock-ups or simulations of scheduling options for reactions
 
-Optional Experimental: Test prototype schedules in pilot teamsCombine empirical (interviews), scenario-based (mock-ups), and experimental (pilot testing) methods.""")
+Optional Experimental: Test prototype schedules in pilot teams""")
     
 
     st.markdown("### Step 3: Decide on the Mode of Worker Participation")
@@ -125,43 +125,59 @@ If scale is large, combine with indirect participation via reps or a scheduling 
 
     st.markdown("### Step 4: Choose the Specific Method for Worker Participation")
     st.write("""Best methods:
+
 Co-design: Host collaborative sessions to design interfaces and logic
+
 Value co-creation: Align scheduling features with both worker well-being and operational needs
+
 Lead user innovation: Involve workers who’ve already devised personal or informal solutions""")
 
     st.markdown("### Step 5: Consider Contextual Factors")
     st.write("""National/regional labor laws on rest periods, overtime, flexibility
+ 
  Collective agreements on shift fairness, rotation, seniority
+ 
  Existing tools or tech policies that must be integrated""")
 
     st.markdown("### Step 6: Employee Education and Training")
     st.write("""Before co-design sessions:
+
 Train participants in basic UX principles or system logic
+
 Share examples of good/bad scheduling systems
+
 Educate about constraints (e.g., regulatory, budgetary, technical)
 """)
 
     st.markdown("### Step 7: Mentoring and Peer Learning")
     st.write("""Pair less tech-comfortable workers with more experienced ones
+    
     Create a buddy system post-launch to support adoption""")
 
     st.markdown("### Step 8: Feedback and Communication Channels")
     st.write("""Set up:
 
 A feedback form directly in the scheduling system
+
 Regular review meetings for continuous input
+
 A digital forum or suggestion board
+
 Actively show how feedback leads to changes.
 """)
 
     st.markdown("### Step 9: Codetermination and Work Councils")
     st.write("""If applicable:
+
 Present the co-designed system to works councils or joint committees
+
 Embed participation rights in the governance of future scheduling changes""")
 
     st.markdown("### Summary Tips")
     st.write("""Focus on real-life pain points like last-minute changes, visibility, and fairness.
+
 Ensure transparency in scheduling logic (why someone got or didn’t get a shift).
+
 Prioritize flexibility, clarity, and worker control where feasible.""")
     
     
