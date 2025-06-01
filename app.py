@@ -72,22 +72,22 @@ for title, content in steps:
         
 with st.expander("Step 4: Choose the Specific Method for Worker Participation"):
     st.markdown("### Co-Design")
-    st.image("assets/Codesign.png", caption="Co-Design", use_column_width=True)
+    st.image("assets/Codesign.png", caption="Co-Design", use_container_width=True)
 
     st.markdown("### Value Co-Creation")
-    st.image("assets/Value_Co_Creation.png", caption="Value Co-Creation", use_column_width=True)
+    st.image("assets/Value_Co_Creation.png", caption="Value Co-Creation", use_container_width=True)
 
     st.markdown("### Resonant Co-Creation")
-    st.image("assets/Resonant_Co_Creation.png", caption="Resonant Co-Creation", use_column_width=True)
+    st.image("assets/Resonant_Co_Creation.png", caption="Resonant Co-Creation", use_container_width=True)
 
     st.markdown("### Lead User Innovation")
-    st.image("assets/Lead_User_Innovation.png", caption="Lead User Innovation", use_column_width=True)
+    st.image("assets/Lead_User_Innovation.png", caption="Lead User Innovation", use_container_width=True)
 
     st.markdown("### Living Labs")
-    st.image("assets/Living_Lab.png", caption="Living Lab", use_column_width=True)
+    st.image("assets/Living_Lab.png", caption="Living Lab", use_container_width=True)
 
     st.markdown("### Explainable AI (XAI)")
-    st.image("assets/Explainable_AI.png", caption="Explainable AI", use_column_width=True)
+    st.image("assets/Explainable_AI.png", caption="Explainable AI", use_container_width=True)
 
     st.markdown("""\nOptions include:
 1) Co-design
