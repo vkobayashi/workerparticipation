@@ -28,7 +28,18 @@ Can be combined depending on depth and complexity.
 
 Choice depends on scale, feasibility, and structures.
 """),
-      ("Step 5: Consider Contextual Factors", """
+    ("Step 4: Choose the Specific Method for Worker Participation", """
+Options include:
+1) Co-design
+2) Value co-creation
+3) Resonant co-creation
+4) Lead user innovation
+5) Living labs
+6) Explainable AI (XAI)
+
+Select based on goals and context.
+"""),
+    ("Step 5: Consider Contextual Factors", """
 Consider:
 - National labor laws
 - Organizational policies
@@ -70,7 +81,7 @@ for title, content in steps:
     with st.expander(title):
         st.markdown(content)
         
-with st.expander("Step 4: Choose the Specific Method for Worker Participation"):
+with st.expander("Descriptive summary of each method in Step 4"):
     st.markdown("### Co-Design")
     st.image("assets/Codesign.png", caption="Co-Design", width=378)
 
@@ -89,12 +100,4 @@ with st.expander("Step 4: Choose the Specific Method for Worker Participation"):
     st.markdown("### Explainable AI (XAI)")
     st.image("assets/Explainable_AI.png", caption="Explainable AI", width=378)
 
-    st.markdown("""\nOptions include:
-1) Co-design
-2) Value co-creation
-3) Resonant co-creation
-4) Lead user innovation
-5) Living labs
-6) Explainable AI (XAI)
 
-Select based on goals and context.""")
