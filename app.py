@@ -99,10 +99,18 @@ with st.expander("Descriptive summary of each method in Step 4"):
 
 with st.expander("Use Case: Designing a Scheduling System"):
     st.markdown("### Step 1: Identify the Model for Worker Involvement")
-    st.write("Recommended model: Workers participating in the design process or workers as designers (for high trust and autonomy environments")
-
+    st.write("Recommended model: Workers participating in the design process or workers as designers (for high trust and autonomy environments)"
+    st.write("Why? These models ensure direct insight into daily scheduling realities, constraints, and preferences.")
+    
     st.markdown("### Step 2: Determine the Approach for Collecting Data and Insights")
-    st.write("Combine empirical (interviews), scenario-based (mock-ups), and experimental (pilot testing) methods.")
+    st.write("Use a mixed approach:
+
+Empirical: Interview workers, observe shift patterns, gather historical issues
+
+Scenario-based: Present mock-ups or simulations of scheduling options for reactions
+
+Optional Experimental: Test prototype schedules in pilot teamsCombine empirical (interviews), scenario-based (mock-ups), and experimental (pilot testing) methods.")
+    
 
     st.markdown("### Step 3: Decide on the Mode of Worker Participation")
     st.write("Prefer direct participation via workshops or co-design sessions; use indirect participation where needed.")
