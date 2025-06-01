@@ -30,7 +30,7 @@ Choice depends on scale, feasibility, and structures.
 """),
     ("Step 4: Choose the Specific Method for Worker Participation", """
 ### Co-Design
-![Co-Design](assets/Codesign.png)
+![Co-Design](./assets/Codesign.png)
 
 ### Value Co-Creation
 ![Value Co-Creation](assets/Value_Co_Creation.png)
