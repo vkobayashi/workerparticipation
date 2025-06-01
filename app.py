@@ -142,8 +142,8 @@ Educate about constraints (e.g., regulatory, budgetary, technical)
 """)
 
     st.markdown("### Step 7: Mentoring and Peer Learning")
-    st.write("Pair less tech-comfortable workers with more experienced ones
-Create a buddy system post-launch to support adoption")
+    st.write("""Pair less tech-comfortable workers with more experienced ones
+    Create a buddy system post-launch to support adoption""")
 
     st.markdown("### Step 8: Feedback and Communication Channels")
     st.write("""Set up:
