@@ -28,8 +28,7 @@ Can be combined depending on depth and complexity.
 
 Choice depends on scale, feasibility, and structures.
 """),
-    ("Step 4: Choose the Specific Method for Worker Participation", None),
-    ("Step 5: Consider Contextual Factors", """
+      ("Step 5: Consider Contextual Factors", """
 Consider:
 - National labor laws
 - Organizational policies
@@ -69,29 +68,28 @@ Enhances legitimacy and effectiveness.
 
 for title, content in steps:
     with st.expander(title):
-        if content:
-            st.markdown(content)
-        elif title.startswith("Step 4"):
-            st.markdown("### Co-Design")
-            st.image("assets/Codesign.png", caption="Co-Design", use_column_width=True)
+        st.markdown(content)
+        
+with st.expander("Step 4: Choose the Specific Method for Worker Participation"):
+    st.markdown("### Co-Design")
+    st.image("assets/Codesign.png", caption="Co-Design", use_column_width=True)
 
-            st.markdown("### Value Co-Creation")
-            st.image("assets/Value_Co_Creation.png", caption="Value Co-Creation", use_column_width=True)
+    st.markdown("### Value Co-Creation")
+    st.image("assets/Value_Co_Creation.png", caption="Value Co-Creation", use_column_width=True)
 
-            st.markdown("### Resonant Co-Creation")
-            st.image("assets/Resonant_Co_Creation.png", caption="Resonant Co-Creation", use_column_width=True)
+    st.markdown("### Resonant Co-Creation")
+    st.image("assets/Resonant_Co_Creation.png", caption="Resonant Co-Creation", use_column_width=True)
 
-            st.markdown("### Lead User Innovation")
-            st.image("assets/Lead_User_Innovation.png", caption="Lead User Innovation", use_column_width=True)
+    st.markdown("### Lead User Innovation")
+    st.image("assets/Lead_User_Innovation.png", caption="Lead User Innovation", use_column_width=True)
 
-            st.markdown("### Living Labs")
-            st.image("assets/Living_Lab.png", caption="Living Lab", use_column_width=True)
+    st.markdown("### Living Labs")
+    st.image("assets/Living_Lab.png", caption="Living Lab", use_column_width=True)
 
-            st.markdown("### Explainable AI (XAI)")
-            st.image("assets/Explainable_AI.png", caption="Explainable AI", use_column_width=True)
+    st.markdown("### Explainable AI (XAI)")
+    st.image("assets/Explainable_AI.png", caption="Explainable AI", use_column_width=True)
 
-            st.markdown("""
-Options include:
+    st.markdown("""\nOptions include:
 1) Co-design
 2) Value co-creation
 3) Resonant co-creation
@@ -99,5 +97,4 @@ Options include:
 5) Living labs
 6) Explainable AI (XAI)
 
-Select based on goals and context.
-""")
+Select based on goals and context.""")
