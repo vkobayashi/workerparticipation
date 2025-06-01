@@ -97,6 +97,9 @@ with st.expander("Descriptive summary of each method in Step 4"):
     st.markdown("### Living Labs")
     st.image("assets/Living_Lab.png", caption="Living Lab", width=378)
 
+    st.markdown("### Explainable AI (XAI)")
+    st.image("assets/Explainable_AI.png", caption="Explainable AI", width=378)
+
 with st.expander("Use Case: Designing a Scheduling System"):
     st.markdown("### Step 1: Identify the Model for Worker Involvement")
     st.write("Recommended model: Workers participating in the design process or workers as designers (for high trust and autonomy environments)")
@@ -122,30 +125,45 @@ If scale is large, combine with indirect participation via reps or a scheduling 
 
     st.markdown("### Step 4: Choose the Specific Method for Worker Participation")
     st.write("""Best methods:
-
 Co-design: Host collaborative sessions to design interfaces and logic
-
 Value co-creation: Align scheduling features with both worker well-being and operational needs
-
 Lead user innovation: Involve workers who’ve already devised personal or informal solutions""")
 
     st.markdown("### Step 5: Consider Contextual Factors")
-    st.write("Respect labor laws, union rules, organizational culture, and technology constraints.")
+    st.write("""National/regional labor laws on rest periods, overtime, flexibility
+ Collective agreements on shift fairness, rotation, seniority
+ Existing tools or tech policies that must be integrated""")
 
     st.markdown("### Step 6: Employee Education and Training")
-    st.write("Train workers in scheduling principles and design thinking.")
+    st.write("""Before co-design sessions:
+Train participants in basic UX principles or system logic
+Share examples of good/bad scheduling systems
+Educate about constraints (e.g., regulatory, budgetary, technical)
+""")
 
     st.markdown("### Step 7: Mentoring and Peer Learning")
-    st.write("Encourage mentoring and peer review of early prototypes.")
+    st.write("Pair less tech-comfortable workers with more experienced ones
+Create a buddy system post-launch to support adoption")
 
     st.markdown("### Step 8: Feedback and Communication Channels")
-    st.write("Use digital forms, feedback loops, and discussion sessions.")
+    st.write("""Set up:
+
+A feedback form directly in the scheduling system
+Regular review meetings for continuous input
+A digital forum or suggestion board
+Actively show how feedback leads to changes.
+""")
 
     st.markdown("### Step 9: Codetermination and Work Councils")
-    st.write("Integrate worker-designed components with formal participation bodies.")
+    st.write("""If applicable:
+Present the co-designed system to works councils or joint committees
+Embed participation rights in the governance of future scheduling changes""")
 
-
-    st.markdown("### Explainable AI (XAI)")
-    st.image("assets/Explainable_AI.png", caption="Explainable AI", width=378)
+    st.markdown("### Summary Tips")
+    st.write("""Focus on real-life pain points like last-minute changes, visibility, and fairness.
+Ensure transparency in scheduling logic (why someone got or didn’t get a shift).
+Prioritize flexibility, clarity, and worker control where feasible.""")
+    
+    
 
 
